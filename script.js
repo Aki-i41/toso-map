@@ -1,3 +1,4 @@
+// シーン、カメラ、レンダラーの設定
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 let renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('scene') });
@@ -60,19 +61,29 @@ hotspots.forEach(pos => {
     );
     hotspot.position.set(pos.x, pos.y, pos.z);
     scene.add(hotspot);
-})
+
+    hotspot.userData = { target: pos.target };
+});
 
 // ホットスポットをクリックすると画像切り替え
-document.addEventListener('mousedown', (event) => {
+document.getElementById("scene").addEventListener("click", (event) => {
+    console.log("クリックイベント発火！"); // 確認用ログ
+
     let mouse = new THREE.Vector2(
         (event.clientX / window.innerWidth) * 2 - 1,
         -(event.clientY / window.innerHeight) * 2 + 1
     );
+
     let raycaster = new THREE.Raycaster();
     raycaster.setFromCamera(mouse, camera);
-
     let intersects = raycaster.intersectObjects(scene.children);
+
+    console.log("交差オブジェクト数:", intersects.length); // デバッグ用
+
     if (intersects.length > 0) {
+        console.log("クリックした3D座標: ", intersects[0].point);
+        console.log("クリックしたオブジェクト:", intersects[0].object);
+
         let clickedObject = intersects[0].object;
         if (clickedObject.userData.target) {
             let loader = new THREE.CubeTextureLoader();
@@ -93,13 +104,3 @@ function animate() {
 }
 
 animate();
-
-document.addEventListener("click", (event) => {
-    console.log("クリックした座標: ", event.clientX, event.clientY);
-});
-
-
-    if (intersects.length > 0) {
-        console.log("クリックした3D座標: ", intersects[0].point);
-    }
-});
