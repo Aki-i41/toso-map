@@ -47,7 +47,7 @@ let panoramaImages = {
 
 // ホットスポットの座標（それぞれ異なる画像に切り替え）
 let hotspots = [
-    { x: 50, y: 50, z: 0, target: 'hotspot1' },
+    { x: 2, y: 2, z: 0, target: 'hotspot1' },
     { x: -2, y: 0, z: 0, target: 'hotspot2' },
     { x: 0, y: 2, z: 0, target: 'hotspot3' }
 ];
