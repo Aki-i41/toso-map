@@ -55,14 +55,12 @@ let hotspots = [
 // ホットスポットを作成
 hotspots.forEach(pos => {
     let hotspot = new THREE.Mesh(
-        new THREE.SphereGeometry(0.15), 
-        new THREE.MeshBasicMaterial({ color: 0xff0000, transparent: true, opacity: 01 })
+        new THREE.SphereGeometry(0.2),  // 大きめのサイズ
+        new THREE.MeshBasicMaterial({ color: 0x00ff00, transparent: true, opacity: 1.0 }) // 目立つ色 & 透明度調整
     );
     hotspot.position.set(pos.x, pos.y, pos.z);
     scene.add(hotspot);
-
-    hotspot.userData = { target: pos.target };
-});
+})
 
 // ホットスポットをクリックすると画像切り替え
 document.addEventListener('mousedown', (event) => {
