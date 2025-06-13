@@ -95,14 +95,9 @@ function animate() {
 animate();
 
 document.addEventListener("click", (event) => {
-    let mouse = new THREE.Vector2(
-        (event.clientX / window.innerWidth) * 2 - 1,
-        -(event.clientY / window.innerHeight) * 2 + 1
-    );
+    console.log("クリックした座標: ", event.clientX, event.clientY);
+});
 
-    let raycaster = new THREE.Raycaster();
-    raycaster.setFromCamera(mouse, camera);
-    let intersects = raycaster.intersectObjects(scene.children);
 
     if (intersects.length > 0) {
         console.log("クリックした3D座標: ", intersects[0].point);
