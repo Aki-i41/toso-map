@@ -4,10 +4,11 @@ let renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('scene'
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
-// 立方体のテクスチャ
+// 立方体のテクスチャ（初期画像）
 let loader = new THREE.CubeTextureLoader();
 let texture = loader.load([
-    'images/front.jpg', 'images/back.jpg', 'images/reft.jpg', 'images/right.jpg', 'images/top.jpg', 'images/under.jpg'
+    'images/front.jpg', 'images/back.jpg', 'images/left.jpg',
+    'images/right.jpg', 'images/top.jpg', 'images/under.jpg'
 ]);
 scene.background = texture;
 
@@ -28,46 +29,68 @@ document.addEventListener('mouseup', () => {
     controls.enableRotate = false;
 });
 
-// 📌 ホットスポット（クリックすると視点移動）
-let hotspotPositions = [
-    { x: 2, y: 0, z: 0 },  // 右側へ移動
-    { x: -2, y: 0, z: 0 }, // 左側へ移動
-    { x: 0, y: 2, z: 0 },  // 上に移動
-    { x: 0, y: -2, z: 0 }  // 下に移動
+// 📌 ホットスポット（クリックすると別の画像に切り替え）
+let panoramaImages = {
+    hotspot1: [
+        'images/front_1.jpg', 'images/back_1.jpg', 'images/left_1.jpg',
+        'images/right_1.jpg', 'images/top_1.jpg', 'images/under_1.jpg'
+    ],
+    hotspot2: [
+        'images/front_2.jpg', 'images/back_2.jpg', 'images/left_2.jpg',
+        'images/right_2.jpg', 'images/top_2.jpg', 'images/under_2.jpg'
+    ],
+    hotspot3: [
+        'images/front_3.jpg', 'images/back_3.jpg', 'images/left_3.jpg',
+        'images/right_3.jpg', 'images/top_3.jpg', 'images/under_3.jpg'
+    ]
+};
+
+// ホットスポットの座標（それぞれ異なる画像に切り替え）
+let hotspots = [
+    { x: 2, y: 0, z: 0, target: 'hotspot1' },
+    { x: -2, y: 0, z: 0, target: 'hotspot2' },
+    { x: 0, y: 2, z: 0, target: 'hotspot3' }
 ];
 
-hotspotPositions.forEach(pos => {
-    let hotspot = new THREE.Mesh(new THREE.SphereGeometry(0.1), new THREE.MeshBasicMaterial({ color: 0xff0000 }));
+// ホットスポットを作成
+hotspots.forEach(pos => {
+    let hotspot = new THREE.Mesh(
+        new THREE.SphereGeometry(0.15), 
+        new THREE.MeshBasicMaterial({ color: 0xff0000, transparent: true, opacity: 0.7 })
+    );
     hotspot.position.set(pos.x, pos.y, pos.z);
     scene.add(hotspot);
 
-    hotspot.userData = { target: pos }; // クリックで移動する座標
+    hotspot.userData = { target: pos.target };
 });
 
-// ホットスポットをクリックするとカメラ移動
-document.addEventListener('click', (event) => {
-    let mouse = new THREE.Vector2((event.clientX / window.innerWidth) * 2 - 1, -(event.clientY / window.innerHeight) * 2 + 1);
+// ホットスポットをクリックすると画像切り替え
+document.addEventListener('mousedown', (event) => {
+    let mouse = new THREE.Vector2(
+        (event.clientX / window.innerWidth) * 2 - 1,
+        -(event.clientY / window.innerHeight) * 2 + 1
+    );
     let raycaster = new THREE.Raycaster();
     raycaster.setFromCamera(mouse, camera);
-    
+
     let intersects = raycaster.intersectObjects(scene.children);
-    if (intersects.length > 0 && intersects[0].object.userData.target) {
-        let targetPos = intersects[0].object.userData.target;
-        
-        // なめらかに視点移動
-        new TWEEN.Tween(camera.position)
-            .to({ x: targetPos.x, y: targetPos.y, z: targetPos.z }, 1000) // 1秒で移動
-            .easing(TWEEN.Easing.Quadratic.Out)
-            .start();
+    if (intersects.length > 0) {
+        let clickedObject = intersects[0].object;
+        if (clickedObject.userData.target) {
+            let loader = new THREE.CubeTextureLoader();
+            let texture = loader.load(panoramaImages[clickedObject.userData.target]);
+            scene.background = texture;
+        }
     }
 });
 
+// なめらかな視点移動
 camera.position.z = 0.1;
 
 function animate() {
     requestAnimationFrame(animate);
     controls.update();
-    TWEEN.update(); // カメラ移動アニメーションを更新
+    TWEEN.update();
     renderer.render(scene, camera);
 }
 
