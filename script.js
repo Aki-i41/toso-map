@@ -1,4 +1,3 @@
-// シーン、カメラ、レンダラーの設定
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 let renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('scene') });
@@ -48,7 +47,7 @@ let panoramaImages = {
 
 // ホットスポットの座標（それぞれ異なる画像に切り替え）
 let hotspots = [
-    { x: 2, y: 2, z: 0, target: 'hotspot1' },
+    { x: 2, y: 0, z: 0, target: 'hotspot1' },
     { x: -2, y: 0, z: 0, target: 'hotspot2' },
     { x: 0, y: 2, z: 0, target: 'hotspot3' }
 ];
@@ -56,8 +55,8 @@ let hotspots = [
 // ホットスポットを作成
 hotspots.forEach(pos => {
     let hotspot = new THREE.Mesh(
-        new THREE.SphereGeometry(0.2),  // 大きめのサイズ
-        new THREE.MeshBasicMaterial({ color: 0x00ff00, transparent: true, opacity: 1.0 }) // 目立つ色 & 透明度調整
+        new THREE.SphereGeometry(0.15), 
+        new THREE.MeshBasicMaterial({ color: 0xff0000, transparent: true, opacity: 0.7 })
     );
     hotspot.position.set(pos.x, pos.y, pos.z);
     scene.add(hotspot);
@@ -66,24 +65,16 @@ hotspots.forEach(pos => {
 });
 
 // ホットスポットをクリックすると画像切り替え
-document.getElementById("scene").addEventListener("click", (event) => {
-    console.log("クリックイベント発火！"); // 確認用ログ
-
+document.addEventListener('mousedown', (event) => {
     let mouse = new THREE.Vector2(
         (event.clientX / window.innerWidth) * 2 - 1,
         -(event.clientY / window.innerHeight) * 2 + 1
     );
-
     let raycaster = new THREE.Raycaster();
     raycaster.setFromCamera(mouse, camera);
+
     let intersects = raycaster.intersectObjects(scene.children);
-
-    console.log("交差オブジェクト数:", intersects.length); // デバッグ用
-
     if (intersects.length > 0) {
-        console.log("クリックした3D座標: ", intersects[0].point);
-        console.log("クリックしたオブジェクト:", intersects[0].object);
-
         let clickedObject = intersects[0].object;
         if (clickedObject.userData.target) {
             let loader = new THREE.CubeTextureLoader();
