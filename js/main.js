@@ -16,7 +16,7 @@ function init() {
   scene = new THREE.Scene();
 
   // スマホかどうかの判定（ユーザーエージェント、またはウィンドウ幅を利用）
-  var isMobile = /Mobi|Android/i.test(navigator.userAgent) || window.innerWidth < 768;
+  var isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent) || window.innerWidth < 768;
   
   // スマホの場合は FOV を広くしてズームアウト状態にする（例：90°）
   var fov = isMobile ? 120 : 75;
