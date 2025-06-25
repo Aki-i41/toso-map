@@ -19,7 +19,7 @@ function init() {
   var isMobile = /Mobi|Android/i.test(navigator.userAgent) || window.innerWidth < 768;
   
   // スマホの場合は FOV を広くしてズームアウト状態にする（例：90°）
-  var fov = isMobile ? 90 : 75;
+  var fov = isMobile ? 120 : 75;
   camera = new THREE.PerspectiveCamera(fov, window.innerWidth / window.innerHeight, 1, 1100);
   camera.position.set(0, 0, 0);
 
