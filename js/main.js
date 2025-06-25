@@ -15,8 +15,12 @@ function init() {
   // シーンの作成
   scene = new THREE.Scene();
 
-  // カメラの作成（視野角 75°, アスペクト比はウィンドウサイズに合わせる）
-  camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 1100);
+  // スマホかどうかの判定（ユーザーエージェント、またはウィンドウ幅を利用）
+  var isMobile = /Mobi|Android/i.test(navigator.userAgent) || window.innerWidth < 768;
+  
+  // スマホの場合は FOV を広くしてズームアウト状態にする（例：90°）
+  var fov = isMobile ? 90 : 75;
+  camera = new THREE.PerspectiveCamera(fov, window.innerWidth / window.innerHeight, 1, 1100);
   camera.position.set(0, 0, 0);
 
   // レンダラーの作成
