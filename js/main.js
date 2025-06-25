@@ -96,8 +96,8 @@ function onTouchMove(event) {
     var deltaX = newX - touchX;
     var deltaY = newY - touchY;
     
-    lon += deltaX * 10;
-    lat -= deltaY * 10;
+    lon += deltaX * 2.5;
+    lat -= deltaY * 2.5;
     lat = Math.max(-85, Math.min(85, lat));
     
     touchX = newX;
