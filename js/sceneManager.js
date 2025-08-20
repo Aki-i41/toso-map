@@ -1387,6 +1387,924 @@ var scenes = {
     }
   }
 };
+"k_scene 1": {
+    textures: {
+      posx: "img/k_scene 1/posx.jpg",
+      negx: "img/k_scene 1/negx.jpg",
+      posy: "img/k_scene 1/posy.jpg",
+      negy: "img/k_scene 1/negy.jpg",
+      posz: "img/k_scene 1/posz.jpg",
+      negz: "img/k_scene 1/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 2",
+      left: "scene34"
+    }
+  },
+ "k_scene 2": {
+    textures: {
+      posx: "img/k_scene 2/posx.jpg",
+      negx: "img/k_scene 2/negx.jpg",
+      posy: "img/k_scene 2/posy.jpg",
+      negy: "img/k_scene 2/negy.jpg",
+      posz: "img/k_scene 2/posz.jpg",
+      negz: "img/k_scene 2/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 3",
+      left:  "k_scene 2"
+    }
+  },
+ "k_scene 3": {
+    textures: {
+      posx: "img/k_scene 3/posx.jpg",
+      negx: "img/k_scene 3/negx.jpg",
+      posy: "img/k_scene 3/posy.jpg",
+      negy: "img/k_scene 3/negy.jpg",
+      posz: "img/k_scene 3/posz.jpg",
+      negz: "img/k_scene 3/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 4",
+      left:  "k_scene 2"
+    }
+  },
+ "k_scene 4": {
+    textures: {
+      posx: "img/k_scene 4/posx.jpg",
+      negx: "img/k_scene 4/negx.jpg",
+      posy: "img/k_scene 4/posy.jpg",
+      negy: "img/k_scene 4/negy.jpg",
+      posz: "img/k_scene 4/posz.jpg",
+      negz: "img/k_scene 4/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 5",
+      left:  "k_scene 3"
+    }
+  },
+ "k_scene 5": {
+    textures: {
+      posx: "img/k_scene 5/posx.jpg",
+      negx: "img/k_scene 5/negx.jpg",
+      posy: "img/k_scene 5/posy.jpg",
+      negy: "img/k_scene 5/negy.jpg",
+      posz: "img/k_scene 5/posz.jpg",
+      negz: "img/k_scene 5/negz.jpg" 
+    },
+    hotspots: {
+      front: "k_scene 7",
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 6",
+      left:  "k_scene 4"
+    }
+  },
+ "k_scene 6": {
+    textures: {
+      posx: "img/k_scene 6/posx.jpg",
+      negx: "img/k_scene 6/negx.jpg",
+      posy: "img/k_scene 6/posy.jpg",
+      negy: "img/k_scene 6/negy.jpg",
+      posz: "img/k_scene 6/posz.jpg",
+      negz: "img/k_scene 6/negz.jpg" 
+    },
+    hotspots: {
+      front: "k_scene 30", 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 10",
+      left:  "k_scene 5"
+    }
+  },
+ "k_scene 7": {
+    textures: {
+      posx: "img/k_scene 7/posx.jpg",
+      negx: "img/k_scene 7/negx.jpg",
+      posy: "img/k_scene 7/posy.jpg",
+      negy: "img/k_scene 7/negy.jpg",
+      posz: "img/k_scene 7/posz.jpg",
+      negz: "img/k_scene 7/negz.jpg" 
+    },
+    hotspots: {
+      front: "k_scene 9", 
+      back:  "k_scene 6",
+      top:   null,
+      bottom:null,
+      right: null,
+      left:  null
+    }
+  },
+ "k_scene 8": {
+    textures: {
+      posx: "img/k_scene 8/posx.jpg",
+      negx: "img/k_scene 8/negx.jpg",
+      posy: "img/k_scene 8/posy.jpg",
+      negy: "img/k_scene 8/negy.jpg",
+      posz: "img/k_scene 8/posz.jpg",
+      negz: "img/k_scene 8/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  "k_scene 9",
+      top:   null,
+      bottom:null,
+      right: null,
+      left:  null
+    }
+  },
+ "k_scene 9": {
+    textures: {
+      posx: "img/k_scene 9/posx.jpg",
+      negx: "img/k_scene 9/negx.jpg",
+      posy: "img/k_scene 9/posy.jpg",
+      negy: "img/k_scene 9/negy.jpg",
+      posz: "img/k_scene 9/posz.jpg",
+      negz: "img/k_scene 9/negz.jpg" 
+    },
+    hotspots: {
+      front: "k_scene 8", 
+      back:  "k_scene 7",
+      top:   null,
+      bottom:null,
+      right: null,
+      left:  null
+    }
+  },
+ "k_scene 10": {
+    textures: {
+      posx: "img/k_scene 10/posx.jpg",
+      negx: "img/k_scene 10/negx.jpg",
+      posy: "img/k_scene 10/posy.jpg",
+      negy: "img/k_scene 10/negy.jpg",
+      posz: "img/k_scene 10/posz.jpg",
+      negz: "img/k_scene 10/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 11",
+      left:  "k_scene 6"
+    }
+  },
+ "k_scene 11": {
+    textures: {
+      posx: "img/k_scene 11/posx.jpg",
+      negx: "img/k_scene 11/negx.jpg",
+      posy: "img/k_scene 11/posy.jpg",
+      negy: "img/k_scene 11/negy.jpg",
+      posz: "img/k_scene 11/posz.jpg",
+      negz: "img/k_scene 11/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 12",
+      left:  "k_scene 10"
+    }
+  },
+ "k_scene 12": {
+    textures: {
+      posx: "img/k_scene 12/posx.jpg",
+      negx: "img/k_scene 12/negx.jpg",
+      posy: "img/k_scene 12/posy.jpg",
+      negy: "img/k_scene 12/negy.jpg",
+      posz: "img/k_scene 12/posz.jpg",
+      negz: "img/k_scene 12/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 13",
+      left:  "k_scene 11"
+    }
+  },
+ "k_scene 13": {
+    textures: {
+      posx: "img/k_scene 13/posx.jpg",
+      negx: "img/k_scene 13/negx.jpg",
+      posy: "img/k_scene 13/posy.jpg",
+      negy: "img/k_scene 13/negy.jpg",
+      posz: "img/k_scene 13/posz.jpg",
+      negz: "img/k_scene 13/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  "k_scene 16",
+      top:   null,
+      bottom:null,
+      right: "k_scene 14",
+      left:  "k_scene 12"
+    }
+  },
+ "k_scene 14": {
+    textures: {
+      posx: "img/k_scene 14/posx.jpg",
+      negx: "img/k_scene 14/negx.jpg",
+      posy: "img/k_scene 14/posy.jpg",
+      negy: "img/k_scene 14/negy.jpg",
+      posz: "img/k_scene 14/posz.jpg",
+      negz: "img/k_scene 14/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 15",
+      left:  "k_scene 13"
+    }
+  },
+ "k_scene 15": {
+    textures: {
+      posx: "img/k_scene 15/posx.jpg",
+      negx: "img/k_scene 15/negx.jpg",
+      posy: "img/k_scene 15/posy.jpg",
+      negy: "img/k_scene 15/negy.jpg",
+      posz: "img/k_scene 15/posz.jpg",
+      negz: "img/k_scene 15/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: null,
+      left:  "k_scene 14"
+    }
+  },
+ "k_scene 16": {
+    textures: {
+      posx: "img/k_scene 16/posx.jpg",
+      negx: "img/k_scene 16/negx.jpg",
+      posy: "img/k_scene 16/posy.jpg",
+      negy: "img/k_scene 16/negy.jpg",
+      posz: "img/k_scene 16/posz.jpg",
+      negz: "img/k_scene 16/negz.jpg" 
+    },
+    hotspots: {
+      front: "k_scene 13",
+      back:  "k_scene 17",
+      top:   null,
+      bottom:null,
+      right: null,
+      left:  null
+    }
+  },
+ "k_scene 17": {
+    textures: {
+      posx: "img/k_scene 17/posx.jpg",
+      negx: "img/k_scene 17/negx.jpg",
+      posy: "img/k_scene 17/posy.jpg",
+      negy: "img/k_scene 17/negy.jpg",
+      posz: "img/k_scene 17/posz.jpg",
+      negz: "img/k_scene 17/negz.jpg" 
+    },
+    hotspots: {
+      front: "k_scene 18",
+      back:  "k_scene 16",
+      top:   null,
+      bottom:null,
+      right: null,
+      left:  null
+    }
+  },
+ "k_scene 18": {
+    textures: {
+      posx: "img/k_scene 18/posx.jpg",
+      negx: "img/k_scene 18/negx.jpg",
+      posy: "img/k_scene 18/posy.jpg",
+      negy: "img/k_scene 18/negy.jpg",
+      posz: "img/k_scene 18/posz.jpg",
+      negz: "img/k_scene 18/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  "k_scene 17",
+      top:   null,
+      bottom:null,
+      right: "k_scene 19",
+      left:  "k_scene 20"
+    }
+  },
+ "k_scene 19": {
+    textures: {
+      posx: "img/k_scene 19/posx.jpg",
+      negx: "img/k_scene 19/negx.jpg",
+      posy: "img/k_scene 19/posy.jpg",
+      negy: "img/k_scene 19/negy.jpg",
+      posz: "img/k_scene 19/posz.jpg",
+      negz: "img/k_scene 19/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: null,
+      left: "k_scene 18"
+    }
+  },
+ "k_scene 20": {
+    textures: {
+      posx: "img/k_scene 20/posx.jpg",
+      negx: "img/k_scene 20/negx.jpg",
+      posy: "img/k_scene 20/posy.jpg",
+      negy: "img/k_scene 20/negy.jpg",
+      posz: "img/k_scene 20/posz.jpg",
+      negz: "img/k_scene 20/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 18",
+      left:  "k_scene 21"
+    }
+  },
+ "k_scene 21": {
+    textures: {
+      posx: "img/k_scene 21/posx.jpg",
+      negx: "img/k_scene 21/negx.jpg",
+      posy: "img/k_scene 21/posy.jpg",
+      negy: "img/k_scene 21/negy.jpg",
+      posz: "img/k_scene 21/posz.jpg",
+      negz: "img/k_scene 21/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 20",
+      left:  "k_scene 23"
+    }
+  },
+ "k_scene 22": {
+    textures: {
+      posx: "img/k_scene 22/posx.jpg",
+      negx: "img/k_scene 22/negx.jpg",
+      posy: "img/k_scene 22/posy.jpg",
+      negy: "img/k_scene 22/negy.jpg",
+      posz: "img/k_scene 22/posz.jpg",
+      negz: "img/k_scene 22/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: null,
+      left:  null
+    }
+  },
+ "k_scene 23": {
+    textures: {
+      posx: "img/k_scene 23/posx.jpg",
+      negx: "img/k_scene 23/negx.jpg",
+      posy: "img/k_scene 23/posy.jpg",
+      negy: "img/k_scene 23/negy.jpg",
+      posz: "img/k_scene 23/posz.jpg",
+      negz: "img/k_scene 23/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 21",
+      left:  "k_scene 24"
+    }
+  },
+ "k_scene 24": {
+    textures: {
+      posx: "img/k_scene 24/posx.jpg",
+      negx: "img/k_scene 24/negx.jpg",
+      posy: "img/k_scene 24/posy.jpg",
+      negy: "img/k_scene 24/negy.jpg",
+      posz: "img/k_scene 24/posz.jpg",
+      negz: "img/k_scene 24/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 23",
+      left:  "k_scene 25"
+    }
+  },
+ "k_scene 25": {
+    textures: {
+      posx: "img/k_scene 25/posx.jpg",
+      negx: "img/k_scene 25/negx.jpg",
+      posy: "img/k_scene 25/posy.jpg",
+      negy: "img/k_scene 25/negy.jpg",
+      posz: "img/k_scene 25/posz.jpg",
+      negz: "img/k_scene 25/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 24",
+      left:  "k_scene 26"
+    }
+  },
+ "k_scene 26": {
+    textures: {
+      posx: "img/k_scene 26/posx.jpg",
+      negx: "img/k_scene 26/negx.jpg",
+      posy: "img/k_scene 26/posy.jpg",
+      negy: "img/k_scene 26/negy.jpg",
+      posz: "img/k_scene 26/posz.jpg",
+      negz: "img/k_scene 26/negz.jpg" 
+    },
+    hotspots: {
+      front: "k_scene 30", 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 25",
+      left:  "k_scene 27"
+    }
+  },
+ "k_scene 27": {
+    textures: {
+      posx: "img/k_scene 27/posx.jpg",
+      negx: "img/k_scene 27/negx.jpg",
+      posy: "img/k_scene 27/posy.jpg",
+      negy: "img/k_scene 27/negy.jpg",
+      posz: "img/k_scene 27/posz.jpg",
+      negz: "img/k_scene 27/negz.jpg" 
+    },
+    hotspots: {
+      front: "k_scene 30", 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 26",
+      left:  "k_scene 28"
+    }
+  },
+ "k_scene ": {
+    textures: {
+      posx: "img/k_scene /posx.jpg",
+      negx: "img/k_scene /negx.jpg",
+      posy: "img/k_scene /posy.jpg",
+      negy: "img/k_scene /negy.jpg",
+      posz: "img/k_scene /posz.jpg",
+      negz: "img/k_scene /negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 27",
+      left:  "k_scene 29"
+    }
+  },
+ "k_scene 28": {
+    textures: {
+      posx: "img/k_scene 28/posx.jpg",
+      negx: "img/k_scene 28/negx.jpg",
+      posy: "img/k_scene 28/posy.jpg",
+      negy: "img/k_scene 28/negy.jpg",
+      posz: "img/k_scene 28/posz.jpg",
+      negz: "img/k_scene 28/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 27",
+      left:  "k_scene 29"
+    }
+  },
+ "k_scene 29": {
+    textures: {
+      posx: "img/k_scene 29/posx.jpg",
+      negx: "img/k_scene 29/negx.jpg",
+      posy: "img/k_scene 29/posy.jpg",
+      negy: "img/k_scene 29/negy.jpg",
+      posz: "img/k_scene 29/posz.jpg",
+      negz: "img/k_scene 29/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 28",
+      left:  null
+    }
+  },
+ "k_scene 30": {
+    textures: {
+      posx: "img/k_scene 30/posx.jpg",
+      negx: "img/k_scene 30/negx.jpg",
+      posy: "img/k_scene 30/posy.jpg",
+      negy: "img/k_scene 30/negy.jpg",
+      posz: "img/k_scene 30/posz.jpg",
+      negz: "img/k_scene 30/negz.jpg" 
+    },
+    hotspots: {
+      front: "k_scene 31", 
+      back:  "k_scene 26",
+      top:   null,
+      bottom:null,
+      right: null,
+      left:  null
+    }
+  },
+ "k_scene 31": {
+    textures: {
+      posx: "img/k_scene 31/posx.jpg",
+      negx: "img/k_scene 31/negx.jpg",
+      posy: "img/k_scene 31/posy.jpg",
+      negy: "img/k_scene 31/negy.jpg",
+      posz: "img/k_scene 31/posz.jpg",
+      negz: "img/k_scene 31/negz.jpg" 
+    },
+    hotspots: {
+      front: "k_scene 30", 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 35",
+      left:  "k_scene 32"
+    }
+  },
+ "k_scene 32": {
+    textures: {
+      posx: "img/k_scene 32/posx.jpg",
+      negx: "img/k_scene 32/negx.jpg",
+      posy: "img/k_scene 32/posy.jpg",
+      negy: "img/k_scene 32/negy.jpg",
+      posz: "img/k_scene 32/posz.jpg",
+      negz: "img/k_scene 32/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 31",
+      left:  "k_scene 33"
+    }
+  },
+ "k_scene 33": {
+    textures: {
+      posx: "img/k_scene 33/posx.jpg",
+      negx: "img/k_scene 33/negx.jpg",
+      posy: "img/k_scene 33/posy.jpg",
+      negy: "img/k_scene 33/negy.jpg",
+      posz: "img/k_scene 33/posz.jpg",
+      negz: "img/k_scene 33/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 32",
+      left:  "k_scene 34"
+    }
+  },
+ "k_scene 34": {
+    textures: {
+      posx: "img/k_scene 34/posx.jpg",
+      negx: "img/k_scene 34/negx.jpg",
+      posy: "img/k_scene 34/posy.jpg",
+      negy: "img/k_scene 34/negy.jpg",
+      posz: "img/k_scene 34/posz.jpg",
+      negz: "img/k_scene 34/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 33",
+      left:  null
+    }
+  },
+ "k_scene 35": {
+    textures: {
+      posx: "img/k_scene 35/posx.jpg",
+      negx: "img/k_scene 35/negx.jpg",
+      posy: "img/k_scene 35/posy.jpg",
+      negy: "img/k_scene 35/negy.jpg",
+      posz: "img/k_scene 35/posz.jpg",
+      negz: "img/k_scene 35/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 36",
+      left:  "k_scene 31"
+    }
+  },
+ "k_scene 36": {
+    textures: {
+      posx: "img/k_scene 36/posx.jpg",
+      negx: "img/k_scene 36/negx.jpg",
+      posy: "img/k_scene 36/posy.jpg",
+      negy: "img/k_scene 36/negy.jpg",
+      posz: "img/k_scene 36/posz.jpg",
+      negz: "img/k_scene 36/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 37",
+      left:  "k_scene 35"
+    }
+  },
+ "k_scene 37": {
+    textures: {
+      posx: "img/k_scene 37/posx.jpg",
+      negx: "img/k_scene 37/negx.jpg",
+      posy: "img/k_scene 37/posy.jpg",
+      negy: "img/k_scene 37/negy.jpg",
+      posz: "img/k_scene 37/posz.jpg",
+      negz: "img/k_scene 37/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 38",
+      left:  "k_scene 36"
+    }
+  },
+ "k_scene 38": {
+    textures: {
+      posx: "img/k_scene 38/posx.jpg",
+      negx: "img/k_scene 38/negx.jpg",
+      posy: "img/k_scene 38/posy.jpg",
+      negy: "img/k_scene 38/negy.jpg",
+      posz: "img/k_scene 38/posz.jpg",
+      negz: "img/k_scene 38/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 39",
+      left:  "k_scene 37"
+    }
+  },
+ "k_scene 39": {
+    textures: {
+      posx: "img/k_scene 39/posx.jpg",
+      negx: "img/k_scene 39/negx.jpg",
+      posy: "img/k_scene 39/posy.jpg",
+      negy: "img/k_scene 39/negy.jpg",
+      posz: "img/k_scene 39/posz.jpg",
+      negz: "img/k_scene 39/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 40",
+      left:  "k_scene 38"
+    }
+  },
+ "k_scene 40": {
+    textures: {
+      posx: "img/k_scene 40/posx.jpg",
+      negx: "img/k_scene 40/negx.jpg",
+      posy: "img/k_scene 40/posy.jpg",
+      negy: "img/k_scene 40/negy.jpg",
+      posz: "img/k_scene 40/posz.jpg",
+      negz: "img/k_scene 40/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  "k_scene 41",
+      top:   null,
+      bottom:null,
+      right: "k_scene 42",
+      left:  "k_scene 39"
+    }
+  },
+ "k_scene 41": {
+    textures: {
+      posx: "img/k_scene 41/posx.jpg",
+      negx: "img/k_scene 41/negx.jpg",
+      posy: "img/k_scene 41/posy.jpg",
+      negy: "img/k_scene 41/negy.jpg",
+      posz: "img/k_scene 41/posz.jpg",
+      negz: "img/k_scene 41/negz.jpg" 
+    },
+    hotspots: {
+      front: "k_scene 40", 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: null,
+      left:  null
+    }
+  },
+ "k_scene 42": {
+    textures: {
+      posx: "img/k_scene 42/posx.jpg",
+      negx: "img/k_scene 42/negx.jpg",
+      posy: "img/k_scene 42/posy.jpg",
+      negy: "img/k_scene 42/negy.jpg",
+      posz: "img/k_scene 42/posz.jpg",
+      negz: "img/k_scene 42/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 43",
+      left:  "k_scene 40"
+    }
+  },
+ "k_scene 43": {
+    textures: {
+      posx: "img/k_scene 43/posx.jpg",
+      negx: "img/k_scene 43/negx.jpg",
+      posy: "img/k_scene 43/posy.jpg",
+      negy: "img/k_scene 43/negy.jpg",
+      posz: "img/k_scene 43/posz.jpg",
+      negz: "img/k_scene 43/negz.jpg" 
+    },
+    hotspots: {
+      front: "k_scene 45", 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 44",
+      left:  "k_scene 42"
+    }
+  },
+ "k_scene 44": {
+    textures: {
+      posx: "img/k_scene 44/posx.jpg",
+      negx: "img/k_scene 44/negx.jpg",
+      posy: "img/k_scene 44/posy.jpg",
+      negy: "img/k_scene 44/negy.jpg",
+      posz: "img/k_scene 44/posz.jpg",
+      negz: "img/k_scene 44/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: null,
+      left:  "k_scene 43"
+    }
+  },
+ "k_scene 45": {
+    textures: {
+      posx: "img/k_scene 45/posx.jpg",
+      negx: "img/k_scene 45/negx.jpg",
+      posy: "img/k_scene 45/posy.jpg",
+      negy: "img/k_scene 45/negy.jpg",
+      posz: "img/k_scene 45/posz.jpg",
+      negz: "img/k_scene 45/negz.jpg" 
+    },
+    hotspots: {
+      front: "k_scene 46", 
+      back:  "k_scene 43",
+      top:   null,
+      bottom:null,
+      right: null,
+      left:  null
+    }
+  },
+ "k_scene 46": {
+    textures: {
+      posx: "img/k_scene 46/posx.jpg",
+      negx: "img/k_scene 46/negx.jpg",
+      posy: "img/k_scene 46/posy.jpg",
+      negy: "img/k_scene 46/negy.jpg",
+      posz: "img/k_scene 46/posz.jpg",
+      negz: "img/k_scene 46/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  "k_scene 47",
+      top:   null,
+      bottom:null,
+      right: "k_scene 49",
+      left:  null
+    }
+  },
+ "k_scene 47": {
+    textures: {
+      posx: "img/k_scene 47/posx.jpg",
+      negx: "img/k_scene 47/negx.jpg",
+      posy: "img/k_scene 47/posy.jpg",
+      negy: "img/k_scene 47/negy.jpg",
+      posz: "img/k_scene 47/posz.jpg",
+      negz: "img/k_scene 47/negz.jpg" 
+    },
+    hotspots: {
+      front: "k_scene 46", 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 48",
+      left:  null
+    }
+  },
+ "k_scene 48": {
+    textures: {
+      posx: "img/k_scene 48/posx.jpg",
+      negx: "img/k_scene 48/negx.jpg",
+      posy: "img/k_scene 48/posy.jpg",
+      negy: "img/k_scene 48/negy.jpg",
+      posz: "img/k_scene 48/posz.jpg",
+      negz: "img/k_scene 48/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: null,
+      left:  "k_scene 47"
+    }
+  },
+ "k_scene 49": {
+    textures: {
+      posx: "img/k_scene 49/posx.jpg",
+      negx: "img/k_scene 49/negx.jpg",
+      posy: "img/k_scene 49/posy.jpg",
+      negy: "img/k_scene 49/negy.jpg",
+      posz: "img/k_scene 49/posz.jpg",
+      negz: "img/k_scene 49/negz.jpg" 
+    },
+    hotspots: {
+      front: "k_scene 50", 
+      back:  "k_scene 46",
+      top:   null,
+      bottom:null,
+      right: null,
+      left:  null
+    }
+  },
+  "k_scene 50": {
+    textures: {
+      posx: "img/k_scene 50/posx.jpg",
+      negx: "img/k_scene 50/negx.jpg",
+      posy: "img/k_scene 50/posy.jpg",
+      negy: "img/k_scene 50/negy.jpg",
+      posz: "img/k_scene 50/posz.jpg",
+      negz: "img/k_scene 50/negz.jpg" 
+    },
+    hotspots: {
+      front: null, 
+      back:  null,
+      top:   null,
+      bottom:null,
+      right: "k_scene 49",
+      left:  null
+    }
+  },
 
 // SceneManager オブジェクトはシーン切替を管理
 var SceneManager = {
@@ -1446,3 +2364,4 @@ var SceneManager = {
     return this.sceneData[this.currentScene].hotspots[key];
   }
 };
+
