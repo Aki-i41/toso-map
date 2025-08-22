@@ -1765,24 +1765,6 @@ var scenes = {
       left:  "k_scene 23"
     }
   },
- "k_scene 22": {
-    textures: {
-      posx: "img/k_scene 22/posx.jpg",
-      negx: "img/k_scene 22/negx.jpg",
-      posy: "img/k_scene 22/posy.jpg",
-      negy: "img/k_scene 22/negy.jpg",
-      posz: "img/k_scene 22/posz.jpg",
-      negz: "img/k_scene 22/negz.jpg" 
-    },
-    hotspots: {
-      front: null, 
-      back:  null,
-      top:   null,
-      bottom:null,
-      right: null,
-      left:  null
-    }
-  },
  "k_scene 23": {
     textures: {
       posx: "img/k_scene 23/posx.jpg",
@@ -2364,4 +2346,5 @@ var SceneManager = {
     return this.sceneData[this.currentScene].hotspots[key];
   }
 };
+
 
