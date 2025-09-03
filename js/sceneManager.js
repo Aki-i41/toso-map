@@ -2214,7 +2214,7 @@ var scenes = {
       right: "k_scene 49",
       left:  null
     }
-  }:
+  };
 
 // SceneManager オブジェクトはシーン切替を管理
 var SceneManager = {
@@ -2274,6 +2274,7 @@ var SceneManager = {
     return this.sceneData[this.currentScene].hotspots[key];
   }
 };
+
 
 
 
