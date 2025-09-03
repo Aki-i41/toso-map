@@ -38,7 +38,7 @@ var scenes = {
     }
   }
 };
- "scene3" : {
+ "scene3": {
     textures: {
       posx: "img/scene3/posx.jpg",
       negx: "img/scene3/negx.jpg",
@@ -2345,6 +2345,7 @@ var SceneManager = {
     return this.sceneData[this.currentScene].hotspots[key];
   }
 };
+
 
 
 
