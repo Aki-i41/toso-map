@@ -88,7 +88,7 @@ var scenes = {
       top: null,
       bottom: null,
       right: "scene4",
-      left: "scene"6
+      left: "scene6"
     }
  },
  "scene6": {
@@ -2275,6 +2275,7 @@ var SceneManager = {
     return this.sceneData[this.currentScene].hotspots[key];
   }
 };
+
 
 
 
