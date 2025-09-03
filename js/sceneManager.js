@@ -36,7 +36,7 @@ var scenes = {
       right: "scene25",
       left: "scene3"
     }
-};
+ },
  "scene3": {
     textures: {
       posx: "img/scene3/posx.jpg",
@@ -54,7 +54,7 @@ var scenes = {
       right: "scene2",
       left: "scene4"
     }
-};
+ },
  "scene4": {
     textures: {
       posx: "img/scene4/posx.jpg",
@@ -72,8 +72,7 @@ var scenes = {
       right: "scene3",
       left: "scene5"
     }
-  }
-};
+ },
  "scene5": {
     textures: {
       posx: "img/scene5/posx.jpg",
@@ -91,8 +90,7 @@ var scenes = {
       right: "scene4",
       left: "scene"6
     }
-  }
-};
+ },
  "scene6": {
     textures: {
       posx: "img/scene6/posx.jpg",
@@ -110,8 +108,7 @@ var scenes = {
       right: "scene5",
       left: null
     }
-  }
-};
+ },
  "scene7": {
     textures: {
       posx: "img/scene7/posx.jpg",
@@ -129,8 +126,7 @@ var scenes = {
       right: "scene67",
       left: null
     }
-  }
-};
+ },
  "scene8": {
     textures: {
       posx: "img/scene8/posx.jpg",
@@ -148,8 +144,7 @@ var scenes = {
       right: "scene66",
       left: null
     }
-  }
-};
+ },
  "scene9": {
     textures: {
       posx: "img/scene9/posx.jpg",
@@ -167,8 +162,7 @@ var scenes = {
       right: "scene"46,
       left: null
     }
-  }
-};
+ },
  "scene10": {
     textures: {
       posx: "img/scene10/posx.jpg",
@@ -186,8 +180,7 @@ var scenes = {
       right: "scene68",
       left: null
     }
-  }
-};
+ },
  "scene11": {
     textures: {
       posx: "img/scene11/posx.jpg",
@@ -205,8 +198,7 @@ var scenes = {
       right: "scene14",
       left: null
     }
-  }
-};
+ },
  "scene12": {
     textures: {
       posx: "img/scene12/posx.jpg",
@@ -224,8 +216,7 @@ var scenes = {
       right: null,
       left: null
     }
-  }
-};
+ },
  "scene13": {
     textures: {
       posx: "img/scene13/posx.jpg",
@@ -243,8 +234,7 @@ var scenes = {
       right: null,
       left: null
     }
-  }
-};
+ },
  "scene14": {
     textures: {
       posx: "img/scene14/posx.jpg",
@@ -262,8 +252,7 @@ var scenes = {
       right: "scene"15,
       left: "scene11"
     }
-  }
-};
+ },
  "scene15": {
     textures: {
       posx: "img/scene15/posx.jpg",
@@ -281,8 +270,7 @@ var scenes = {
       right: "scene69",
       left: "scene14"
     }
-  }
-};
+ },
  "scene16": {
     textures: {
       posx: "img/scene16/posx.jpg",
@@ -300,8 +288,7 @@ var scenes = {
       right: "scene17",
       left: "scene70"
     }
-  }
-};
+ },
  "scene17": {
     textures: {
       posx: "img/scene17/posx.jpg",
@@ -319,8 +306,7 @@ var scenes = {
       right: "scene18",
       left: "scene16"
     }
-  }
-};
+ },
  "scene18": {
     textures: {
       posx: "img/scene18/posx.jpg",
@@ -338,8 +324,7 @@ var scenes = {
       right: null,
       left: "scene17"
     }
-  }
-};
+ },
  "scene19": {
     textures: {
       posx: "img/scene19/posx.jpg",
@@ -357,8 +342,7 @@ var scenes = {
       right: null,
       left: "scene56"
     }
-  }
-};
+ },
  "scene20": {
     textures: {
       posx: "img/scene20/posx.jpg",
@@ -376,8 +360,7 @@ var scenes = {
       right: null,
       left: null
     }
-  }
-};
+ },
  "scene21": {
     textures: {
       posx: "img/scene21/posx.jpg",
@@ -395,8 +378,7 @@ var scenes = {
       right: null,
       left: "scene62"
     }
-  }
-};
+ },
  "scene22": {
     textures: {
       posx: "img/scene22/posx.jpg",
@@ -414,8 +396,7 @@ var scenes = {
       right: null,
       left: "scene23"
     }
-  }
-};
+ },
  "scene23": {
     textures: {
       posx: "img/scene23/posx.jpg",
@@ -433,8 +414,7 @@ var scenes = {
       right: "scene"22,
       left: "scene41"
     }
-  }
-};
+ },
  "scene24": {
     textures: {
       posx: "img/scene24/posx.jpg",
@@ -452,8 +432,7 @@ var scenes = {
       right: null,
       left: "scene42"
     }
-  }
-};
+ },
  "scene25": {
     textures: {
       posx: "img/scene25/posx.jpg",
@@ -471,8 +450,7 @@ var scenes = {
       right: "scene26",
       left: "scene2"
     }
-  }
-};
+ },
  "scene26": {
     textures: {
       posx: "img/scene26/posx.jpg",
@@ -490,8 +468,7 @@ var scenes = {
       right: "scene27",
       left: "scene25"
     }
-  }
-};
+ },
  "scene27": {
     textures: {
       posx: "img/scene27/posx.jpg",
@@ -509,8 +486,7 @@ var scenes = {
       right: "scene28",
       left: "scene26"
     }
-  }
-};
+ },
  "scene28": {
     textures: {
       posx: "img/scene28/posx.jpg",
@@ -528,8 +504,7 @@ var scenes = {
       right: null,
       left: "scene27"
     }
-  }
-};
+ },
  "scene29": {
     textures: {
       posx: "img/scene29/posx.jpg",
@@ -547,8 +522,7 @@ var scenes = {
       right: null,
       left: "scene30"
     }
-  }
-};
+ },
  "scene30": {
     textures: {
       posx: "img/scene30/posx.jpg",
@@ -566,8 +540,7 @@ var scenes = {
       right: "scene29",
       left: null
     }
-  }
-};
+ },
  "scene31": {
     textures: {
       posx: "img/scene31/posx.jpg",
@@ -585,8 +558,7 @@ var scenes = {
       right: null,
       left: "scene32"
     }
-  }
-};
+ },
  "scene32": {
     textures: {
       posx: "img/scene32/posx.jpg",
@@ -604,8 +576,7 @@ var scenes = {
       right: "scene31",
       left: "scene33"
     }
-  }
-};
+ },
  "scene33": {
     textures: {
       posx: "img/scene33/posx.jpg",
@@ -623,8 +594,7 @@ var scenes = {
       right: "scene32",
       left: "scene67"
     }
-  }
-};
+ },
  "scene34": {
     textures: {
       posx: "img/scene34/posx.jpg",
@@ -642,8 +612,7 @@ var scenes = {
       right: null,
       left: "scene64"
     }
-  }
-};
+ },
  "scene35": {
     textures: {
       posx: "img/scene35/posx.jpg",
@@ -661,8 +630,7 @@ var scenes = {
       right: null,
       left: null
     }
-  }
-};
+ },
  "scene36": {
     textures: {
       posx: "img/scene36/posx.jpg",
@@ -680,8 +648,7 @@ var scenes = {
       right: "scene37",
       left: "scene63"
     }
-  }
-};
+ },
  "scene37": {
     textures: {
       posx: "img/scene37/posx.jpg",
@@ -699,8 +666,7 @@ var scenes = {
       right: "scene38",
       left: "scene36"
     }
-  }
-};
+ },
  "scene38": {
     textures: {
       posx: "img/scene38/posx.jpg",
@@ -718,8 +684,7 @@ var scenes = {
       right: "scene39",
       left: "scene37"
     }
-  }
-};
+ },
  "scene39": {
     textures: {
       posx: "img/scene39/posx.jpg",
@@ -737,8 +702,7 @@ var scenes = {
       right: "scene40",
       left: "scene38"
     }
-  }
-};
+ },
  "scene40": {
     textures: {
       posx: "img/scene40/posx.jpg",
@@ -756,8 +720,7 @@ var scenes = {
       right: null,
       left: "scene39"
     }
-  }
-};
+ },
  "scene41": {
     textures: {
       posx: "img/scene41/posx.jpg",
@@ -775,8 +738,7 @@ var scenes = {
       right: "scene23",
       left: null
     }
-  }
-};
+ },
  "scene42": {
     textures: {
       posx: "img/scene42/posx.jpg",
@@ -794,8 +756,7 @@ var scenes = {
       right: "scene24",
       left: "scene72"
     }
-  }
-};
+ },
  "scene43": {
     textures: {
       posx: "img/scene43/posx.jpg",
@@ -813,8 +774,7 @@ var scenes = {
       right: null,
       left: null
     }
-  }
-};
+ },
  "scene44": {
     textures: {
       posx: "img/scene44/posx.jpg",
@@ -832,8 +792,7 @@ var scenes = {
       right: null,
       left: "scene45"
     }
-  }
-};
+ },
  "scene45": {
     textures: {
       posx: "img/scene45/posx.jpg",
@@ -851,8 +810,7 @@ var scenes = {
       right: "scene44",
       left: "scene46"
     }
-  }
-};
+ },
  "scene46": {
     textures: {
       posx: "img/scene46/posx.jpg",
@@ -870,8 +828,7 @@ var scenes = {
       right: "scene45",
       left: "scene9"
     }
-  }
-};
+ },
  "scene47": {
     textures: {
       posx: "img/scene47/posx.jpg",
@@ -889,8 +846,7 @@ var scenes = {
       right: null,
       left: null
     }
-  }
-};
+ },
  "scene48": {
     textures: {
       posx: "img/scene48/posx.jpg",
@@ -908,8 +864,7 @@ var scenes = {
       right: null,
       left: "scene68"
     }
-  }
-};
+ },
  "scene49": {
     textures: {
       posx: "img/scene49/posx.jpg",
@@ -927,8 +882,7 @@ var scenes = {
       right: null,
       left: null
     }
-  }
-};
+ },
  "scene50": {
     textures: {
       posx: "img/scene50/posx.jpg",
@@ -946,8 +900,7 @@ var scenes = {
       right: "scene51",
       left: null
     }
-  }
-};
+ },
  "scene51": {
     textures: {
       posx: "img/scene51/posx.jpg",
@@ -965,8 +918,7 @@ var scenes = {
       right: scene52,
       left: scene51
     }
-  }
-};
+ },
  "scene52": {
     textures: {
       posx: "img/scene52/posx.jpg",
@@ -984,8 +936,7 @@ var scenes = {
       right: null,
       left: scene51
     }
-  }
-};
+ },
  "scene53": {
     textures: {
       posx: "img/scene53/posx.jpg",
@@ -1003,8 +954,7 @@ var scenes = {
       right: null,
       left: null
     }
-  }
-};
+ },
  "scene54": {
     textures: {
       posx: "img/scene54/posx.jpg",
@@ -1022,8 +972,7 @@ var scenes = {
       right: scene55,
       left: scene53
     }
-  }
-};
+ },
  "scene55": {
     textures: {
       posx: "img/scene55/posx.jpg",
@@ -1041,8 +990,7 @@ var scenes = {
       right: null,
       left: null
     }
-  }
-};
+ },
  "scene56": {
     textures: {
       posx: "img/scene56/posx.jpg",
@@ -1060,8 +1008,7 @@ var scenes = {
       right: null,
       left: scene57
     }
-  }
-};
+ },
  "scene57": {
     textures: {
       posx: "img/scene57/posx.jpg",
@@ -1079,8 +1026,7 @@ var scenes = {
       right: scene56,
       left: scene58
     }
-  }
-};
+ },
  "scene58": {
     textures: {
       posx: "img/scene58/posx.jpg",
@@ -1098,8 +1044,7 @@ var scenes = {
       right: scene57,
       left: null
     }
-  }
-};
+ },
  "scene59": {
     textures: {
       posx: "img/scene59/posx.jpg",
@@ -1117,8 +1062,7 @@ var scenes = {
       right: null,
       left: null
     }
-  }
-};
+ },
  "scene60": {
     textures: {
       posx: "img/scene60/posx.jpg",
@@ -1136,8 +1080,7 @@ var scenes = {
       right: null,
       left: null
     }
-  }
-};
+ },
  "scene61": {
     textures: {
       posx: "img/scene61/posx.jpg",
@@ -1155,8 +1098,7 @@ var scenes = {
       right: scene62,
       left: null
     }
-  }
-};
+ },
  "scene62": {
     textures: {
       posx: "img/scene62/posx.jpg",
@@ -1174,8 +1116,7 @@ var scenes = {
       right: scene21,
       left: scene61
     }
-  }
-};
+ },
  "scene63": {
     textures: {
       posx: "img/scene63/posx.jpg",
@@ -1193,8 +1134,7 @@ var scenes = {
       right: scene36,
       left: scene66
     }
-  }
-};
+ },
  "scene64": {
     textures: {
       posx: "img/scene64/posx.jpg",
@@ -1212,8 +1152,7 @@ var scenes = {
       right: scene34,
       left: null
     }
-  }
-};
+ },
  "scene65": {
     textures: {
       posx: "img/scene65/posx.jpg",
@@ -1231,8 +1170,7 @@ var scenes = {
       right: null,
       left: null
     }
-  }
-};
+ },
  "scene66": {
     textures: {
       posx: "img/scene66/posx.jpg",
@@ -1250,8 +1188,7 @@ var scenes = {
       right: scene63,
       left: scene8
     }
-  }
-};
+ },
  "scene67": {
     textures: {
       posx: "img/scene67/posx.jpg",
@@ -1269,8 +1206,7 @@ var scenes = {
       right: scene33,
       left: scene7
     }
-  }
-};
+ },
  "scene68": {
     textures: {
       posx: "img/scene68/posx.jpg",
@@ -1288,8 +1224,7 @@ var scenes = {
       right: scene48,
       left: scene10
     }
-  }
-};
+ },
  "scene69": {
     textures: {
       posx: "img/scene69/posx.jpg",
@@ -1307,8 +1242,7 @@ var scenes = {
       right: null,
       left: scene15
     }
-  }
-};
+ },
  "scene70": {
     textures: {
       posx: "img/scene70/posx.jpg",
@@ -1326,8 +1260,7 @@ var scenes = {
       right: scene16,
       left: null
     }
-  }
-};
+ },
  "scene71": {
     textures: {
       posx: "img/scene71/posx.jpg",
@@ -1345,8 +1278,7 @@ var scenes = {
       right: null,
       left: null
     }
-  }
-};
+ },
  "scene72": {
     textures: {
       posx: "img/scene72/posx.jpg",
@@ -1364,8 +1296,7 @@ var scenes = {
       right: scene40,
       left: scene73
     }
-  }
-};
+ },
  "scene73": {
     textures: {
       posx: "img/scene73/posx.jpg",
@@ -1383,8 +1314,7 @@ var scenes = {
       right: scene72,
       left: null
     }
-  }
-};
+ },
 "k_scene 1": {
     textures: {
       posx: "img/k_scene 1/posx.jpg",
@@ -2284,7 +2214,8 @@ var scenes = {
       right: "k_scene 49",
       left:  null
     }
-  },
+  }
+}:
 
 // SceneManager オブジェクトはシーン切替を管理
 var SceneManager = {
@@ -2344,6 +2275,7 @@ var SceneManager = {
     return this.sceneData[this.currentScene].hotspots[key];
   }
 };
+
 
 
 
