@@ -36,7 +36,6 @@ var scenes = {
       right: "scene25",
       left: "scene3"
     }
-  }
 };
  "scene3": {
     textures: {
@@ -2345,6 +2344,7 @@ var SceneManager = {
     return this.sceneData[this.currentScene].hotspots[key];
   }
 };
+
 
 
 
