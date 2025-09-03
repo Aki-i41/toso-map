@@ -803,7 +803,7 @@ var scenes = {
       negz: "img/scene45/negx.jpg" 
     },
     hotspots: {
-      front: "scene"50,
+      front: "scene50",
       back: null, 
       top: null,
       bottom: null,
@@ -2275,6 +2275,7 @@ var SceneManager = {
     return this.sceneData[this.currentScene].hotspots[key];
   }
 };
+
 
 
 
