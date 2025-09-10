@@ -26,7 +26,7 @@ var scenes = {
       posy: "img/scene2/posy.jpg",
       negy: "img/scene2/negy.jpg",
       posz: "img/scene2/posz.jpg",
-      negz: "img/scene2/negx.jpg" 
+      negz: "img/scene2/negz.jpg" 
     },
     hotspots: {
       front: "scene31",
@@ -44,7 +44,7 @@ var scenes = {
       posy: "img/scene3/posy.jpg",
       negy: "img/scene3/negy.jpg",
       posz: "img/scene3/posz.jpg",
-      negz: "img/scene3/negx.jpg" 
+      negz: "img/scene3/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -62,7 +62,7 @@ var scenes = {
       posy: "img/scene4/posy.jpg",
       negy: "img/scene4/negy.jpg",
       posz: "img/scene4/posz.jpg",
-      negz: "img/scene4/negx.jpg" 
+      negz: "img/scene4/negz.jpg" 
     },
     hotspots: {
       front: "scene65",
@@ -80,7 +80,7 @@ var scenes = {
       posy: "img/scene5/posy.jpg",
       negy: "img/scene5/negy.jpg",
       posz: "img/scene5/posz.jpg",
-      negz: "img/scene5/negx.jpg" 
+      negz: "img/scene5/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -98,7 +98,7 @@ var scenes = {
       posy: "img/scene6/posy.jpg",
       negy: "img/scene6/negy.jpg",
       posz: "img/scene6/posz.jpg",
-      negz: "img/scene6/negx.jpg" 
+      negz: "img/scene6/negz.jpg" 
     },
     hotspots: {
       front: "scene7",
@@ -116,7 +116,7 @@ var scenes = {
       posy: "img/scene7/posy.jpg",
       negy: "img/scene7/negy.jpg",
       posz: "img/scene7/posz.jpg",
-      negz: "img/scene7/negx.jpg" 
+      negz: "img/scene7/negz.jpg" 
     },
     hotspots: {
       front: "scene8",
@@ -134,7 +134,7 @@ var scenes = {
       posy: "img/scene8/posy.jpg",
       negy: "img/scene8/negy.jpg",
       posz: "img/scene8/posz.jpg",
-      negz: "img/scene8/negx.jpg" 
+      negz: "img/scene8/negz.jpg" 
     },
     hotspots: {
       front: "scene9",
@@ -152,7 +152,7 @@ var scenes = {
       posy: "img/scene9/posy.jpg",
       negy: "img/scene9/negy.jpg",
       posz: "img/scene9/posz.jpg",
-      negz: "img/scene9/negx.jpg" 
+      negz: "img/scene9/negz.jpg" 
     },
     hotspots: {
       front: "scene10",
@@ -170,7 +170,7 @@ var scenes = {
       posy: "img/scene10/posy.jpg",
       negy: "img/scene10/negy.jpg",
       posz: "img/scene10/posz.jpg",
-      negz: "img/scene10/negx.jpg" 
+      negz: "img/scene10/negz.jpg" 
     },
     hotspots: {
       front: "scene11",
@@ -188,7 +188,7 @@ var scenes = {
       posy: "img/scene11/posy.jpg",
       negy: "img/scene11/negy.jpg",
       posz: "img/scene11/posz.jpg",
-      negz: "img/scene11/negx.jpg" 
+      negz: "img/scene11/negz.jpg" 
     },
     hotspots: {
       front: "scene12",
@@ -206,7 +206,7 @@ var scenes = {
       posy: "img/scene12/posy.jpg",
       negy: "img/scene12/negy.jpg",
       posz: "img/scene12/posz.jpg",
-      negz: "img/scene12/negx.jpg" 
+      negz: "img/scene12/negz.jpg" 
     },
     hotspots: {
       front: "scene13",
@@ -224,7 +224,7 @@ var scenes = {
       posy: "img/scene13/posy.jpg",
       negy: "img/scene13/negy.jpg",
       posz: "img/scene13/posz.jpg",
-      negz: "img/scene13/negx.jpg" 
+      negz: "img/scene13/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -242,7 +242,7 @@ var scenes = {
       posy: "img/scene14/posy.jpg",
       negy: "img/scene14/negy.jpg",
       posz: "img/scene14/posz.jpg",
-      negz: "img/scene14/negx.jpg" 
+      negz: "img/scene14/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -260,7 +260,7 @@ var scenes = {
       posy: "img/scene15/posy.jpg",
       negy: "img/scene15/negy.jpg",
       posz: "img/scene15/posz.jpg",
-      negz: "img/scene15/negx.jpg" 
+      negz: "img/scene15/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -278,7 +278,7 @@ var scenes = {
       posy: "img/scene16/posy.jpg",
       negy: "img/scene16/negy.jpg",
       posz: "img/scene16/posz.jpg",
-      negz: "img/scene16/negx.jpg" 
+      negz: "img/scene16/negz.jpg" 
     },
     hotspots: {
       front: "scene69",
@@ -296,7 +296,7 @@ var scenes = {
       posy: "img/scene17/posy.jpg",
       negy: "img/scene17/negy.jpg",
       posz: "img/scene17/posz.jpg",
-      negz: "img/scene17/negx.jpg" 
+      negz: "img/scene17/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -314,7 +314,7 @@ var scenes = {
       posy: "img/scene18/posy.jpg",
       negy: "img/scene18/negy.jpg",
       posz: "img/scene18/posz.jpg",
-      negz: "img/scene18/negx.jpg" 
+      negz: "img/scene18/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -332,7 +332,7 @@ var scenes = {
       posy: "img/scene19/posy.jpg",
       negy: "img/scene19/negy.jpg",
       posz: "img/scene19/posz.jpg",
-      negz: "img/scene19/negx.jpg" 
+      negz: "img/scene19/negz.jpg" 
     },
     hotspots: {
       front: "scene18",
@@ -350,7 +350,7 @@ var scenes = {
       posy: "img/scene20/posy.jpg",
       negy: "img/scene20/negy.jpg",
       posz: "img/scene20/posz.jpg",
-      negz: "img/scene20/negx.jpg" 
+      negz: "img/scene20/negz.jpg" 
     },
     hotspots: {
       front: "scene19",
@@ -368,7 +368,7 @@ var scenes = {
       posy: "img/scene21/posy.jpg",
       negy: "img/scene21/negy.jpg",
       posz: "img/scene21/posz.jpg",
-      negz: "img/scene21/negx.jpg" 
+      negz: "img/scene21/negz.jpg" 
     },
     hotspots: {
       front: "scene20",
@@ -386,7 +386,7 @@ var scenes = {
       posy: "img/scene22/posy.jpg",
       negy: "img/scene22/negy.jpg",
       posz: "img/scene22/posz.jpg",
-      negz: "img/scene22/negx.jpg" 
+      negz: "img/scene22/negz.jpg" 
     },
     hotspots: {
       front: "scene21",
@@ -404,7 +404,7 @@ var scenes = {
       posy: "img/scene23/posy.jpg",
       negy: "img/scene23/negy.jpg",
       posz: "img/scene23/posz.jpg",
-      negz: "img/scene23/negx.jpg" 
+      negz: "img/scene23/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -422,7 +422,7 @@ var scenes = {
       posy: "img/scene24/posy.jpg",
       negy: "img/scene24/negy.jpg",
       posz: "img/scene24/posz.jpg",
-      negz: "img/scene24/negx.jpg" 
+      negz: "img/scene24/negz.jpg" 
     },
     hotspots: {
       front: "scene22",
@@ -440,7 +440,7 @@ var scenes = {
       posy: "img/scene25/posy.jpg",
       negy: "img/scene25/negy.jpg",
       posz: "img/scene25/posz.jpg",
-      negz: "img/scene25/negx.jpg" 
+      negz: "img/scene25/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -458,7 +458,7 @@ var scenes = {
       posy: "img/scene26/posy.jpg",
       negy: "img/scene26/negy.jpg",
       posz: "img/scene26/posz.jpg",
-      negz: "img/scene26/negx.jpg" 
+      negz: "img/scene26/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -476,7 +476,7 @@ var scenes = {
       posy: "img/scene27/posy.jpg",
       negy: "img/scene27/negy.jpg",
       posz: "img/scene27/posz.jpg",
-      negz: "img/scene27/negx.jpg" 
+      negz: "img/scene27/negz.jpg" 
     },
     hotspots: {
       front: "scene30",
@@ -494,7 +494,7 @@ var scenes = {
       posy: "img/scene28/posy.jpg",
       negy: "img/scene28/negy.jpg",
       posz: "img/scene28/posz.jpg",
-      negz: "img/scene28/negx.jpg" 
+      negz: "img/scene28/negz.jpg" 
     },
     hotspots: {
       front: "scene29",
@@ -512,7 +512,7 @@ var scenes = {
       posy: "img/scene29/posy.jpg",
       negy: "img/scene29/negy.jpg",
       posz: "img/scene29/posz.jpg",
-      negz: "img/scene29/negx.jpg" 
+      negz: "img/scene29/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -530,7 +530,7 @@ var scenes = {
       posy: "img/scene30/posy.jpg",
       negy: "img/scene30/negy.jpg",
       posz: "img/scene30/posz.jpg",
-      negz: "img/scene30/negx.jpg" 
+      negz: "img/scene30/negz.jpg" 
     },
     hotspots: {
       front: "scene24",
@@ -548,7 +548,7 @@ var scenes = {
       posy: "img/scene31/posy.jpg",
       negy: "img/scene31/negy.jpg",
       posz: "img/scene31/posz.jpg",
-      negz: "img/scene31/negx.jpg" 
+      negz: "img/scene31/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -566,7 +566,7 @@ var scenes = {
       posy: "img/scene32/posy.jpg",
       negy: "img/scene32/negy.jpg",
       posz: "img/scene32/posz.jpg",
-      negz: "img/scene32/negx.jpg" 
+      negz: "img/scene32/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -584,7 +584,7 @@ var scenes = {
       posy: "img/scene33/posy.jpg",
       negy: "img/scene33/negy.jpg",
       posz: "img/scene33/posz.jpg",
-      negz: "img/scene33/negx.jpg" 
+      negz: "img/scene33/negz.jpg" 
     },
     hotspots: {
       front: "scene34",
@@ -602,7 +602,7 @@ var scenes = {
       posy: "img/scene34/posy.jpg",
       negy: "img/scene34/negy.jpg",
       posz: "img/scene34/posz.jpg",
-      negz: "img/scene34/negx.jpg" 
+      negz: "img/scene34/negz.jpg" 
     },
     hotspots: {
       front: "scene35",
@@ -620,7 +620,7 @@ var scenes = {
       posy: "img/scene35/posy.jpg",
       negy: "img/scene35/negy.jpg",
       posz: "img/scene35/posz.jpg",
-      negz: "img/scene35/negx.jpg" 
+      negz: "img/scene35/negz.jpg" 
     },
     hotspots: {
       front: "scene63",
@@ -638,7 +638,7 @@ var scenes = {
       posy: "img/scene36/posy.jpg",
       negy: "img/scene36/negy.jpg",
       posz: "img/scene36/posz.jpg",
-      negz: "img/scene36/negx.jpg" 
+      negz: "img/scene36/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -656,7 +656,7 @@ var scenes = {
       posy: "img/scene37/posy.jpg",
       negy: "img/scene37/negy.jpg",
       posz: "img/scene37/posz.jpg",
-      negz: "img/scene37/negx.jpg" 
+      negz: "img/scene37/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -674,7 +674,7 @@ var scenes = {
       posy: "img/scene38/posy.jpg",
       negy: "img/scene38/negy.jpg",
       posz: "img/scene38/posz.jpg",
-      negz: "img/scene38/negx.jpg" 
+      negz: "img/scene38/negz.jpg" 
     },
     hotspots: {
       front: "scene43",
@@ -692,7 +692,7 @@ var scenes = {
       posy: "img/scene39/posy.jpg",
       negy: "img/scene39/negy.jpg",
       posz: "img/scene39/posz.jpg",
-      negz: "img/scene39/negx.jpg" 
+      negz: "img/scene39/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -710,7 +710,7 @@ var scenes = {
       posy: "img/scene40/posy.jpg",
       negy: "img/scene40/negy.jpg",
       posz: "img/scene40/posz.jpg",
-      negz: "img/scene40/negx.jpg" 
+      negz: "img/scene40/negz.jpg" 
     },
     hotspots: {
       front: "scene62",
@@ -728,7 +728,7 @@ var scenes = {
       posy: "img/scene41/posy.jpg",
       negy: "img/scene41/negy.jpg",
       posz: "img/scene41/posz.jpg",
-      negz: "img/scene41/negx.jpg" 
+      negz: "img/scene41/negz.jpg" 
     },
     hotspots: {
       front: "scene40",
@@ -746,7 +746,7 @@ var scenes = {
       posy: "img/scene42/posy.jpg",
       negy: "img/scene42/negy.jpg",
       posz: "img/scene42/posz.jpg",
-      negz: "img/scene42/negx.jpg" 
+      negz: "img/scene42/negz.jpg" 
     },
     hotspots: {
       front: "scene41",
@@ -764,7 +764,7 @@ var scenes = {
       posy: "img/scene43/posy.jpg",
       negy: "img/scene43/negy.jpg",
       posz: "img/scene43/posz.jpg",
-      negz: "img/scene43/negx.jpg" 
+      negz: "img/scene43/negz.jpg" 
     },
     hotspots: {
       front: "scene44",
@@ -782,7 +782,7 @@ var scenes = {
       posy: "img/scene44/posy.jpg",
       negy: "img/scene44/negy.jpg",
       posz: "img/scene44/posz.jpg",
-      negz: "img/scene44/negx.jpg" 
+      negz: "img/scene44/negz.jpg" 
     },
     hotspots: {
       front: "scene52",
@@ -800,7 +800,7 @@ var scenes = {
       posy: "img/scene45/posy.jpg",
       negy: "img/scene45/negy.jpg",
       posz: "img/scene45/posz.jpg",
-      negz: "img/scene45/negx.jpg" 
+      negz: "img/scene45/negz.jpg" 
     },
     hotspots: {
       front: "scene50",
@@ -818,7 +818,7 @@ var scenes = {
       posy: "img/scene46/posy.jpg",
       negy: "img/scene46/negy.jpg",
       posz: "img/scene46/posz.jpg",
-      negz: "img/scene46/negx.jpg" 
+      negz: "img/scene46/negz.jpg" 
     },
     hotspots: {
       front: "scene47",
@@ -836,7 +836,7 @@ var scenes = {
       posy: "img/scene47/posy.jpg",
       negy: "img/scene47/negy.jpg",
       posz: "img/scene47/posz.jpg",
-      negz: "img/scene47/negx.jpg" 
+      negz: "img/scene47/negz.jpg" 
     },
     hotspots: {
       front: "scene48",
@@ -854,7 +854,7 @@ var scenes = {
       posy: "img/scene48/posy.jpg",
       negy: "img/scene48/negy.jpg",
       posz: "img/scene48/posz.jpg",
-      negz: "img/scene48/negx.jpg" 
+      negz: "img/scene48/negz.jpg" 
     },
     hotspots: {
       front: "scene49",
@@ -872,7 +872,7 @@ var scenes = {
       posy: "img/scene49/posy.jpg",
       negy: "img/scene49/negy.jpg",
       posz: "img/scene49/posz.jpg",
-      negz: "img/scene49/negx.jpg" 
+      negz: "img/scene49/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -890,7 +890,7 @@ var scenes = {
       posy: "img/scene50/posy.jpg",
       negy: "img/scene50/negy.jpg",
       posz: "img/scene50/posz.jpg",
-      negz: "img/scene50/negx.jpg" 
+      negz: "img/scene50/negz.jpg" 
     },
     hotspots: {
       front: "scene70",
@@ -908,7 +908,7 @@ var scenes = {
       posy: "img/scene51/posy.jpg",
       negy: "img/scene51/negy.jpg",
       posz: "img/scene51/posz.jpg",
-      negz: "img/scene51/negx.jpg" 
+      negz: "img/scene51/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -926,7 +926,7 @@ var scenes = {
       posy: "img/scene52/posy.jpg",
       negy: "img/scene52/negy.jpg",
       posz: "img/scene52/posz.jpg",
-      negz: "img/scene52/negx.jpg" 
+      negz: "img/scene52/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -944,7 +944,7 @@ var scenes = {
       posy: "img/scene53/posy.jpg",
       negy: "img/scene53/negy.jpg",
       posz: "img/scene53/posz.jpg",
-      negz: "img/scene53/negx.jpg" 
+      negz: "img/scene53/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -962,7 +962,7 @@ var scenes = {
       posy: "img/scene54/posy.jpg",
       negy: "img/scene54/negy.jpg",
       posz: "img/scene54/posz.jpg",
-      negz: "img/scene54/negx.jpg" 
+      negz: "img/scene54/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -980,7 +980,7 @@ var scenes = {
       posy: "img/scene55/posy.jpg",
       negy: "img/scene55/negy.jpg",
       posz: "img/scene55/posz.jpg",
-      negz: "img/scene55/negx.jpg" 
+      negz: "img/scene55/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -998,7 +998,7 @@ var scenes = {
       posy: "img/scene56/posy.jpg",
       negy: "img/scene56/negy.jpg",
       posz: "img/scene56/posz.jpg",
-      negz: "img/scene56/negx.jpg" 
+      negz: "img/scene56/negz.jpg" 
     },
     hotspots: {
       front: "scene55",
@@ -1016,7 +1016,7 @@ var scenes = {
       posy: "img/scene57/posy.jpg",
       negy: "img/scene57/negy.jpg",
       posz: "img/scene57/posz.jpg",
-      negz: "img/scene57/negx.jpg" 
+      negz: "img/scene57/negz.jpg" 
     },
     hotspots: {
       front: "scene53",
@@ -1034,7 +1034,7 @@ var scenes = {
       posy: "img/scene58/posy.jpg",
       negy: "img/scene58/negy.jpg",
       posz: "img/scene58/posz.jpg",
-      negz: "img/scene58/negx.jpg" 
+      negz: "img/scene58/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -1052,7 +1052,7 @@ var scenes = {
       posy: "img/scene59/posy.jpg",
       negy: "img/scene59/negy.jpg",
       posz: "img/scene59/posz.jpg",
-      negz: "img/scene59/negx.jpg" 
+      negz: "img/scene59/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -1070,7 +1070,7 @@ var scenes = {
       posy: "img/scene60/posy.jpg",
       negy: "img/scene60/negy.jpg",
       posz: "img/scene60/posz.jpg",
-      negz: "img/scene60/negx.jpg" 
+      negz: "img/scene60/negz.jpg" 
     },
     hotspots: {
       front: "scene58",
@@ -1088,7 +1088,7 @@ var scenes = {
       posy: "img/scene61/posy.jpg",
       negy: "img/scene61/negy.jpg",
       posz: "img/scene61/posz.jpg",
-      negz: "img/scene61/negx.jpg" 
+      negz: "img/scene61/negz.jpg" 
     },
     hotspots: {
       front: "scene60",
@@ -1106,7 +1106,7 @@ var scenes = {
       posy: "img/scene62/posy.jpg",
       negy: "img/scene62/negy.jpg",
       posz: "img/scene62/posz.jpg",
-      negz: "img/scene62/negx.jpg" 
+      negz: "img/scene62/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -1124,7 +1124,7 @@ var scenes = {
       posy: "img/scene63/posy.jpg",
       negy: "img/scene63/negy.jpg",
       posz: "img/scene63/posz.jpg",
-      negz: "img/scene63/negx.jpg" 
+      negz: "img/scene63/negz.jpg" 
     },
     hotspots: {
       front: "scene46",
@@ -1142,7 +1142,7 @@ var scenes = {
       posy: "img/scene64/posy.jpg",
       negy: "img/scene64/negy.jpg",
       posz: "img/scene64/posz.jpg",
-      negz: "img/scene64/negx.jpg" 
+      negz: "img/scene64/negz.jpg" 
     },
     hotspots: {
       front: "scene63",
@@ -1160,7 +1160,7 @@ var scenes = {
       posy: "img/scene65/posy.jpg",
       negy: "img/scene65/negy.jpg",
       posz: "img/scene65/posz.jpg",
-      negz: "img/scene65/negx.jpg" 
+      negz: "img/scene65/negz.jpg" 
     },
     hotspots: {
       front: "scene64",
@@ -1178,7 +1178,7 @@ var scenes = {
       posy: "img/scene66/posy.jpg",
       negy: "img/scene66/negy.jpg",
       posz: "img/scene66/posz.jpg",
-      negz: "img/scene66/negx.jpg" 
+      negz: "img/scene66/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -1196,7 +1196,7 @@ var scenes = {
       posy: "img/scene67/posy.jpg",
       negy: "img/scene67/negy.jpg",
       posz: "img/scene67/posz.jpg",
-      negz: "img/scene67/negx.jpg" 
+      negz: "img/scene67/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -1214,7 +1214,7 @@ var scenes = {
       posy: "img/scene68/posy.jpg",
       negy: "img/scene68/negy.jpg",
       posz: "img/scene68/posz.jpg",
-      negz: "img/scene68/negx.jpg" 
+      negz: "img/scene68/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -1232,7 +1232,7 @@ var scenes = {
       posy: "img/scene69/posy.jpg",
       negy: "img/scene69/negy.jpg",
       posz: "img/scene69/posz.jpg",
-      negz: "img/scene69/negx.jpg" 
+      negz: "img/scene69/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -1250,7 +1250,7 @@ var scenes = {
       posy: "img/scene70/posy.jpg",
       negy: "img/scene70/negy.jpg",
       posz: "img/scene70/posz.jpg",
-      negz: "img/scene70/negx.jpg" 
+      negz: "img/scene70/negz.jpg" 
     },
     hotspots: {
       front: "scene15",
@@ -1268,7 +1268,7 @@ var scenes = {
       posy: "img/scene71/posy.jpg",
       negy: "img/scene71/negy.jpg",
       posz: "img/scene71/posz.jpg",
-      negz: "img/scene71/negx.jpg" 
+      negz: "img/scene71/negz.jpg" 
     },
     hotspots: {
       front: "scene45",
@@ -1286,7 +1286,7 @@ var scenes = {
       posy: "img/scene72/posy.jpg",
       negy: "img/scene72/negy.jpg",
       posz: "img/scene72/posz.jpg",
-      negz: "img/scene72/negx.jpg" 
+      negz: "img/scene72/negz.jpg" 
     },
     hotspots: {
       front: null,
@@ -1304,7 +1304,7 @@ var scenes = {
       posy: "img/scene73/posy.jpg",
       negy: "img/scene73/negy.jpg",
       posz: "img/scene73/posz.jpg",
-      negz: "img/scene73/negx.jpg" 
+      negz: "img/scene73/negz.jpg" 
     },
     hotspots: {
       front: "scene38",
@@ -2275,6 +2275,7 @@ var SceneManager = {
     return this.sceneData[this.currentScene].hotspots[key];
   }
 };
+
 
 
 
