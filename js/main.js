@@ -33,7 +33,7 @@ function init() {
   mouse = new THREE.Vector2();
 
   // 初期シーンとして "scene1" をロード（SceneManager のコードは別ファイルで管理）
-  SceneManager.loadScene("scene1");
+  SceneManager.loadScene("scene1", scene);
 
   // イベントリスナーの設定
   // --- デスクトップ用 ---
@@ -157,4 +157,5 @@ function animate() {
   
   renderer.render(scene, camera);
 }
+
 
